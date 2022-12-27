@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "skypro-lesson-27"
+version = "0.1.0"
+description = ""
+authors = ["DoubleCitizen <500maxim005@gmail.com>"]
+readme = "README.md"
+packages = [{include = "skypro_lesson_27"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
